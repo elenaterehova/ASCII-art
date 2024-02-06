@@ -2,7 +2,7 @@ import cv2
 
 string = " `.,-':<>;+!*/?%&98#"
 coeff = 255 / (len(string) - 1)
-image = cv2.imread('img/wall-e.png')
+image = cv2.imread('img/img.png')
 width, height, channels = image.shape
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
